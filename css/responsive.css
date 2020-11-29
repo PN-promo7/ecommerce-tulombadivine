@@ -1,0 +1,172 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* Styles */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  .menu-burger {
+    display: block;
+    padding: 6px;
+  }
+
+  nav .navigation {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-navigation {
+    display: none;
+  }
+
+  .scnd-navigation li {
+    padding-right: 2px;
+  }
+
+  .icons {
+    font-size: 1.3rem;
+  }
+
+/* HEADER */
+  header h1 {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  header p {
+    font-size: 0.5rem;
+    margin-left: 15px;
+    padding: 5px 5px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+.btn_header{
+  display: none;
+}
+
+header p {
+  display:block;
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+}
+
+/* CATEGORY */
+  .desc_category_woman_first {
+    display: none;
+  }
+
+  .desc_category_woman_scnd {
+    display: block;
+    border: 2px solid black;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  /* category 1 */
+  .category_mode .text_category_woman {
+    right: 22px;
+    top: 96px;
+  }
+
+  /* category 2 */
+  .category_acess  .text_category_woman{
+    left: 22px;
+    top: 111px;
+  }
+
+  .articles-to-sell .container, .row_add {
+    flex-direction: column;
+  }
+
+/* category access man */
+.man_acess p, .man_acess a {
+  display: none;
+}
+
+.man_acess a {
+  display: block;
+  top:1022px;
+  left:132px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* category mode man */
+.single-product_man a {
+  font-size: 0.8rem;
+}
+
+/* story */
+
+  .histoire {
+    padding: 30px;
+  }
+
+  .histoire h3 {
+    font-size: 1rem;
+    padding-top: 5px;
+  }
+
+  .text_histoire a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  /* shop */
+
+
+  .articles-to-sell h3, .price_product span, .product_discover span {
+    font-size: 0.8rem;
+  }
+
+  .columnright, .columnleft {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .columnright {
+    margin-top: 0px;
+  }
+
+  .product_discover {
+    padding: 0 10px;
+  }
+
+  .banner h2 {
+    font-size: 1rem;
+  }
+
+  .advantages .title_category {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .advantages p {
+    font-size: 0.6rem;
+  }
+
+  .advantages article {
+    margin-top: 10px;
+  }
+
+  .icons_add {
+    font-size: 2rem;
+  }
+
+  .page-footer {
+    flex-direction: column;
+  }
+
+  .w33 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}
